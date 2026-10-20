@@ -1,12 +1,34 @@
-# TGS-2025053212 — Certified Kubernetes Application Developer (CKAD) Hands-On Labs
+# WSQ Certified Kubernetes Application Developer (CKAD) Training
 
-> **Course:** WSQ — Certified Kubernetes Application Developer (CKAD) Training
-> **Course Code:** TGS-2025053212
-> **Register here:** https://www.tertiarycourses.com.sg/wsq-certified-kubernetes-application-developer-ckad-training.html
+A four-day WSQ course that builds, deploys, observes, secures and networks cloud-native applications on Kubernetes, with 30 step-by-step labs aligned to the CNCF CKAD v1.35 exam objectives.
 
-These are the official hands-on lab exercises for the WSQ Certified Kubernetes Application Developer (CKAD) Training course delivered by [**Tertiary Infotech Academy Pte Ltd**](https://www.tertiarycourses.com.sg/).
+| Course detail | Information |
+|---|---|
+| Course code | `TGS-2025053212` |
+| Programme | WSQ |
+| Duration | 4 days · 32 hours (plus 2 hours assessment) |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-certified-kubernetes-application-developer-ckad-training.html) |
+| Funding | Up to 70% WSQ course-fee funding for eligible Singaporeans/PRs and companies. Eligibility and terms apply — see the course page. |
 
-A complete set of **30 step-by-step labs** aligned to the CNCF **CKAD v1.35** exam objectives. Every lab runs on the free **Killercoda Kubernetes Playground** (https://killercoda.com/playgrounds/scenario/kubernetes) — no local install required.
+## About the course
+
+These are the official courseware and hands-on lab exercises for the WSQ Certified Kubernetes Application Developer (CKAD) Training course delivered by [**Tertiary Infotech Academy Pte Ltd**](https://www.tertiarycourses.com.sg/). Every lab runs on the free **Killercoda Kubernetes Playground** (https://killercoda.com/playgrounds/scenario/kubernetes) — no local install required. Skills framework: TSC *Solution Architecture* (ICT-DES-5006-1.1).
+
+## Learning outcomes
+
+1. Establish high-level structures and frameworks for Kubernetes solutions using appropriate processes and tools.
+2. Align technical, functional, and service requirements within Kubernetes-based solution architectures.
+3. Coordinate multiple Kubernetes solution components to ensure compatibility and meet design framework goals.
+4. Articulate the value of Kubernetes solutions by addressing coding standards, scalability, and reusability.
+5. Establish monitoring and testing processes to validate Kubernetes architectures against business requirements.
+
+## Topics covered
+
+1. Application Design and Build — container images, Pods, Jobs, CronJobs, multi-container Pods and volumes
+2. Application Deployment — Deployments, rolling updates, blue/green and canary, Helm and Kustomize
+3. Application Observability and Maintenance — probes, logging, metrics, debugging and API deprecations
+4. Application Environment, Configuration and Security — ConfigMaps, Secrets, SecurityContext, ServiceAccounts, RBAC and quotas
+5. Services and Networking — Services, DNS, Ingress with TLS and NetworkPolicy
 
 ---
 
@@ -93,16 +115,17 @@ Hands-on practicum exercises, one per training day:
 
 ## Courseware
 
-The [`courseware/`](courseware/) folder holds the generated training deliverables (Version 1.0):
+The [`courseware/`](courseware/) folder holds the current training deliverables (v5.0):
 
 | File | Description |
 |------|-------------|
-| [`CKAD-Certified-Kubernetes-Application-Developer-v1.0.pptx`](courseware/CKAD-Certified-Kubernetes-Application-Developer-v1.0.pptx) | Slide deck — 344 slides, all 4 days (includes an online practice-exam slide) |
-| [`CKAD-Certified-Kubernetes-Application-Developer-v1.0.pdf`](courseware/CKAD-Certified-Kubernetes-Application-Developer-v1.0.pdf) | PDF version of the slide deck |
-| [`LG-Certified-Kubernetes-Application-Developer-CKAD.docx`](courseware/LG-Certified-Kubernetes-Application-Developer-CKAD.docx) · [PDF](courseware/LG-Certified-Kubernetes-Application-Developer-CKAD.pdf) | Learner Guide (Word + PDF) |
+| [`CKAD-Certified-Kubernetes-Application-Developer-v5.0.pptx`](courseware/CKAD-Certified-Kubernetes-Application-Developer-v5.0.pptx) · [PDF](courseware/CKAD-Certified-Kubernetes-Application-Developer-v5.0.pdf) | Slide deck (PowerPoint + PDF), all 4 days |
+| [`LG-Certified-Kubernetes-Application-Developer-CKAD.docx`](courseware/LG-Certified-Kubernetes-Application-Developer-CKAD.docx) · [PDF](courseware/LG-Certified-Kubernetes-Application-Developer-CKAD.pdf) · [Markdown](LG-Certified-Kubernetes-Application-Developer-CKAD.md) | Learner Guide (Word + PDF + Markdown) |
 | [`LP-Certified-Kubernetes-Application-Developer-CKAD.docx`](courseware/LP-Certified-Kubernetes-Application-Developer-CKAD.docx) · [PDF](courseware/LP-Certified-Kubernetes-Application-Developer-CKAD.pdf) | Lesson Plan (Word + PDF) — day schedule with per-session slide page references |
 
-Courseware is generated from single-source scripts in [`.claude/skills/`](.claude/skills/) (Tertiary Infotech WSQ house skills for slides, Learner Guide, Lesson Plan and assessments).
+## Distribution boundary
+
+This public repository carries the learner-facing slides, guides and labs. The WSQ assessment papers and answer keys, the Facilitator Guide and Assessment Plan, source references and credentials are trainer-only and are not published here.
 
 ---
 
@@ -112,3 +135,7 @@ Courseware is generated from single-source scripts in [`.claude/skills/`](.claud
 - [labs/tools.md](labs/tools.md) — Complete list of free tools (Killercoda + external)
 - CNCF CKAD exam curriculum: https://github.com/cncf/curriculum
 - Exam prep & answer keys: https://github.com/ChathurangaVKD/ckad-exam-prep
+
+---
+
+Provided by **Tertiary Infotech Academy Pte Ltd** (UEN 201200696W).
